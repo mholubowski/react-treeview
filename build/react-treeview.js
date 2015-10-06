@@ -119,12 +119,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      '▾'
 	    );
 	
+	    var itemClasses = "tree-view_item " + this.props.treeViewItemClasses;
+	
 	    return _react2['default'].createElement(
 	      'div',
 	      { className: 'tree-view' },
 	      _react2['default'].createElement(
 	        'div',
-	        { className: 'tree-view_item', onClick: this.props.treeViewItemOnClick },
+	        { className: itemClasses, onClick: this.props.treeViewItemOnClick },
 	        arrow,
 	        nodeLabel
 	      ),

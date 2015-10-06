@@ -43,9 +43,11 @@ const TreeView = React.createClass({
         ▾
       </div>;
 
+    let itemClasses = "tree-view_item " + this.props.treeViewItemClasses;
+
     return (
       <div className="tree-view">
-        <div className="tree-view_item" onClick={this.props.treeViewItemOnClick}>
+        <div className={itemClasses} onClick={this.props.treeViewItemOnClick}>
           {arrow}
           {nodeLabel}
         </div>
