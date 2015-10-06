@@ -76,7 +76,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  propTypes: {
 	    collapsed: _react.PropTypes.bool,
 	    defaultCollapsed: _react.PropTypes.bool,
-	    nodeLabel: _react.PropTypes.node.isRequired
+	    nodeLabel: _react.PropTypes.node.isRequired,
+	    treeViewItemOnClick: _react.PropTypes.func
 	  },
 	
 	  getInitialState: function getInitialState() {
@@ -122,13 +123,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      'div',
 	      { className: 'tree-view' },
 	      _react2['default'].createElement(
-	        'p',
-	        null,
-	        'hi'
-	      ),
-	      _react2['default'].createElement(
 	        'div',
-	        { className: 'tree-view_item' },
+	        { className: 'tree-view_item', onClick: this.props.treeViewItemOnClick },
 	        arrow,
 	        nodeLabel
 	      ),
