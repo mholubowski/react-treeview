@@ -122,6 +122,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      'div',
 	      { className: 'tree-view' },
 	      _react2['default'].createElement(
+	        'p',
+	        null,
+	        'hi'
+	      ),
+	      _react2['default'].createElement(
 	        'div',
 	        { className: 'tree-view_item' },
 	        arrow,

@@ -15,25 +15,26 @@
 9 verbose cache add local package /Users/mike/code/react-treeview
 10 silly lockFile 3a52ce78- .
 11 verbose lock . /Users/mike/.npm/3a52ce78-.lock
-12 verbose tar pack [ '/Users/mike/.npm/react-treeview/0.4.2/package.tgz', '.' ]
-13 verbose tarball /Users/mike/.npm/react-treeview/0.4.2/package.tgz
+12 verbose tar pack [ '/Users/mike/.npm/react-treeview-limeleads/0.4.2/package.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /Users/mike/.npm/react-treeview-limeleads/0.4.2/package.tgz
 14 verbose folder .
-15 info prepublish react-treeview@0.4.2
+15 info prepublish react-treeview-limeleads@0.4.2
 16 silly lockFile 1f1177db-tar tar://.
 17 verbose lock tar://. /Users/mike/.npm/1f1177db-tar.lock
-18 silly lockFile a0afba97-react-treeview-0-4-2-package-tgz tar:///Users/mike/.npm/react-treeview/0.4.2/package.tgz
-19 verbose lock tar:///Users/mike/.npm/react-treeview/0.4.2/package.tgz /Users/mike/.npm/a0afba97-react-treeview-0-4-2-package-tgz.lock
+18 silly lockFile f5daa0a1-view-limeleads-0-4-2-package-tgz tar:///Users/mike/.npm/react-treeview-limeleads/0.4.2/package.tgz
+19 verbose lock tar:///Users/mike/.npm/react-treeview-limeleads/0.4.2/package.tgz /Users/mike/.npm/f5daa0a1-view-limeleads-0-4-2-package-tgz.lock
 20 silly lockFile 1f1177db-tar tar://.
 21 silly lockFile 1f1177db-tar tar://.
-22 silly lockFile a0afba97-react-treeview-0-4-2-package-tgz tar:///Users/mike/.npm/react-treeview/0.4.2/package.tgz
-23 silly lockFile a0afba97-react-treeview-0-4-2-package-tgz tar:///Users/mike/.npm/react-treeview/0.4.2/package.tgz
-24 silly lockFile 3d75772a-npm-react-treeview-0-4-2-package /Users/mike/.npm/react-treeview/0.4.2/package
-25 verbose lock /Users/mike/.npm/react-treeview/0.4.2/package /Users/mike/.npm/3d75772a-npm-react-treeview-0-4-2-package.lock
-26 silly lockFile 3d75772a-npm-react-treeview-0-4-2-package /Users/mike/.npm/react-treeview/0.4.2/package
-27 silly lockFile 3d75772a-npm-react-treeview-0-4-2-package /Users/mike/.npm/react-treeview/0.4.2/package
+22 silly lockFile f5daa0a1-view-limeleads-0-4-2-package-tgz tar:///Users/mike/.npm/react-treeview-limeleads/0.4.2/package.tgz
+23 silly lockFile f5daa0a1-view-limeleads-0-4-2-package-tgz tar:///Users/mike/.npm/react-treeview-limeleads/0.4.2/package.tgz
+24 silly lockFile c135c8d8-treeview-limeleads-0-4-2-package /Users/mike/.npm/react-treeview-limeleads/0.4.2/package
+25 verbose lock /Users/mike/.npm/react-treeview-limeleads/0.4.2/package /Users/mike/.npm/c135c8d8-treeview-limeleads-0-4-2-package.lock
+26 silly lockFile c135c8d8-treeview-limeleads-0-4-2-package /Users/mike/.npm/react-treeview-limeleads/0.4.2/package
+27 silly lockFile c135c8d8-treeview-limeleads-0-4-2-package /Users/mike/.npm/react-treeview-limeleads/0.4.2/package
 28 silly lockFile 3a52ce78- .
 29 silly lockFile 3a52ce78- .
-30 silly publish { name: 'react-treeview',
+30 silly publish { name: 'react-treeview-limeleads',
 30 silly publish   version: '0.4.2',
 30 silly publish   description: 'Easy, light, flexible tree view made with React.',
 30 silly publish   main: 'lib/react-treeview.js',
@@ -45,7 +46,7 @@
 30 silly publish      prerelease: 'babel src --out-dir lib && NODE_ENV=production webpack --config webpack.prod.config.js' },
 30 silly publish   repository:
 30 silly publish    { type: 'git',
-30 silly publish      url: 'https://github.com/chenglou/react-treeview.git' },
+30 silly publish      url: 'https://github.com/mholubowski/react-treeview.git' },
 30 silly publish   keywords:
 30 silly publish    [ 'facebook',
 30 silly publish      'react',
@@ -57,10 +58,10 @@
 30 silly publish      'tree-node',
 30 silly publish      'ui',
 30 silly publish      'react-component' ],
-30 silly publish   author: { name: 'chenglou', email: 'chenglou92@gmail.com' },
+30 silly publish   author: { name: 'mholubowski', email: 'mike.holubowski@gmail.com' },
 30 silly publish   license: 'MIT',
-30 silly publish   bugs: { url: 'https://github.com/chenglou/react-treeview/issues' },
-30 silly publish   homepage: 'https://github.com/chenglou/react-treeview',
+30 silly publish   bugs: { url: 'https://github.com/mholubowski/react-treeview/issues' },
+30 silly publish   homepage: 'https://github.com/mholubowski/react-treeview',
 30 silly publish   peerDependencies: { react: '>=0.12.0 || ^0.14.0-rc1' },
 30 silly publish   devDependencies:
 30 silly publish    { babel: '^5.6.14',
@@ -72,37 +73,37 @@
 30 silly publish      'webpack-dev-server': '^1.10.1' },
 30 silly publish   readme: '# React-treeview [![npm version](https://badge.fury.io/js/react-treeview.svg)](https://www.npmjs.com/package/react-treeview) [![Bower version](https://badge.fury.io/bo/react-treeview.svg)](http://badge.fury.io/bo/react-treeview)\n\nEasy, light, flexible treeview made with [React](http://facebook.github.io/react/).\n\n[Demos](https://cdn.rawgit.com/chenglou/react-treeview/07132c6ad33a7b94d479eae60e84a0f02b2126da/demos/index.html) from the [demos folder](https://github.com/chenglou/react-treeview/tree/07132c6ad33a7b94d479eae60e84a0f02b2126da/demos).\n\n## install\n\nNpm:\n```sh\nnpm install react-treeview\n```\n\nBower:\n```sh\nbower install react-treeview\n```\n\nThe CSS file:\n\n```html\n<link rel="stylesheet" type="text/css" href="path/to/react-treeview.css">\n```\n\n## API\n\n#### &lt;TreeView />\nThe component accepts [three props](https://github.com/chenglou/react-treeview/blob/07132c6ad33a7b94d479eae60e84a0f02b2126da/src/react-treeview.jsx#L5-L7).\n\n- `collapsed`: whether the node is collapsed or not.\n- `defaultCollapsed`: the [uncontrolled](http://facebook.github.io/react/docs/forms.html#uncontrolled-components) equivalent to `collapsed`.\n- `nodeLabel`: the component or string (or anything renderable) that\'s displayed beside the TreeView arrow.\n\nTreeViews can be naturally nested.\n\nThe extra properties transferred onto the arrow, so all attributes and events naturally work on it.\n\n## Styling\nThe CSS is flexible, commented and made to be easily customized. Feel free to inspect the demo\'s classes and check the [short CSS code](https://github.com/chenglou/react-treeview/blob/07132c6ad33a7b94d479eae60e84a0f02b2126da/react-treeview.css).\n\n## Build It Yourself/Run the Demos\n\nBuild: `npm install && npm run prerelease`\n\nDemos: `npm install && npm start && open http://localhost:3000`\n\n## License\n\nMIT.\n',
 30 silly publish   readmeFilename: 'README.md',
-30 silly publish   gitHead: '0e8876e9950bdc7f2b722c3a68c85c9786fb5bfb',
-30 silly publish   _id: 'react-treeview@0.4.2',
-30 silly publish   _shasum: '8ec492e42014f4db6eb5195307ed7c057e73735e',
+30 silly publish   gitHead: '84269bc1b85dceee49c0315af67cdc0c49fce5ac',
+30 silly publish   _id: 'react-treeview-limeleads@0.4.2',
+30 silly publish   _shasum: '49816a69caacfca5f531f0bc484ae3fd00cb0bd6',
 30 silly publish   _from: '.' }
-31 verbose mapToRegistry name react-treeview
-32 verbose mapToRegistry uri https://registry.npmjs.org/react-treeview
+31 verbose mapToRegistry name react-treeview-limeleads
+32 verbose mapToRegistry uri https://registry.npmjs.org/react-treeview-limeleads
 33 verbose publish registryBase https://registry.npmjs.org/
-34 verbose request on initialization, where is /react-treeview
-35 verbose request after pass 1, where is /react-treeview
-36 verbose request url raw /react-treeview
-37 verbose request resolving registry [ 'https://registry.npmjs.org/', './react-treeview' ]
-38 verbose request after pass 2, where is https://registry.npmjs.org/react-treeview
+34 verbose request on initialization, where is /react-treeview-limeleads
+35 verbose request after pass 1, where is /react-treeview-limeleads
+36 verbose request url raw /react-treeview-limeleads
+37 verbose request resolving registry [ 'https://registry.npmjs.org/', './react-treeview-limeleads' ]
+38 verbose request after pass 2, where is https://registry.npmjs.org/react-treeview-limeleads
 39 verbose request sending authorization for write operation
-40 info attempt registry request try #1 at 20:08:13
+40 info attempt registry request try #1 at 20:20:11
 41 verbose request using bearer token for auth
-42 verbose request id 0b9e366e49a52758
-43 http request PUT https://registry.npmjs.org/react-treeview
-44 http 403 https://registry.npmjs.org/react-treeview
+42 verbose request id 43de8c90c95675e0
+43 http request PUT https://registry.npmjs.org/react-treeview-limeleads
+44 http 403 https://registry.npmjs.org/react-treeview-limeleads
 45 verbose headers { 'content-type': 'application/json',
 45 verbose headers   'cache-control': 'max-age=60',
-45 verbose headers   'content-length': '106',
+45 verbose headers   'content-length': '95',
 45 verbose headers   'accept-ranges': 'bytes',
-45 verbose headers   date: 'Tue, 06 Oct 2015 02:08:15 GMT',
+45 verbose headers   date: 'Tue, 06 Oct 2015 02:20:18 GMT',
 45 verbose headers   via: '1.1 varnish',
 45 verbose headers   connection: 'keep-alive',
-45 verbose headers   'x-served-by': 'cache-sjc3124-SJC',
+45 verbose headers   'x-served-by': 'cache-lax1434-LAX',
 45 verbose headers   'x-cache': 'MISS',
 45 verbose headers   'x-cache-hits': '0',
-45 verbose headers   'x-timer': 'S1444097294.925034,VS0,VE170' }
+45 verbose headers   'x-timer': 'S1444098017.010293,VS0,VE1416' }
 46 error publish Failed PUT 403
-47 verbose stack Error: You do not have permission to publish 'react-treeview'. Are you logged in as the correct user? : react-treeview
+47 verbose stack Error: "You cannot publish over the previously published version 0.4.2." : react-treeview-limeleads
 47 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:261:14)
 47 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
 47 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
@@ -114,14 +115,14 @@
 47 verbose stack     at _stream_readable.js:938:16
 47 verbose stack     at process._tickCallback (node.js:419:13)
 48 verbose statusCode 403
-49 verbose pkgid react-treeview
+49 verbose pkgid react-treeview-limeleads
 50 verbose cwd /Users/mike/code/react-treeview
 51 error Darwin 13.3.0
 52 error argv "node" "/usr/local/bin/npm" "publish"
 53 error node v0.10.30
 54 error npm  v2.0.0
 55 error code E403
-56 error You do not have permission to publish 'react-treeview'. Are you logged in as the correct user? : react-treeview
+56 error "You cannot publish over the previously published version 0.4.2." : react-treeview-limeleads
 57 error If you need help, you may report this error at:
 57 error     <http://github.com/npm/npm/issues>
 58 verbose exit [ 1, true ]
