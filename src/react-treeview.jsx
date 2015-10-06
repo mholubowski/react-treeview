@@ -5,6 +5,7 @@ const TreeView = React.createClass({
     collapsed: PropTypes.bool,
     defaultCollapsed: PropTypes.bool,
     nodeLabel: PropTypes.node.isRequired,
+    treeViewItemOnClick: PropTypes.func
   },
 
   getInitialState() {
@@ -44,7 +45,7 @@ const TreeView = React.createClass({
 
     return (
       <div className="tree-view">
-        <div className="tree-view_item">
+        <div className="tree-view_item" onClick={this.props.treeViewItemOnClick}>
           {arrow}
           {nodeLabel}
         </div>
