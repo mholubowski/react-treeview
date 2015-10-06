@@ -1,5 +1,5 @@
 {
-  "name": "react-treeview",
+  "name": "react-treeview-limeleads",
   "version": "0.4.2",
   "description": "Easy, light, flexible tree view made with React.",
   "main": "lib/react-treeview.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenglou/react-treeview.git"
+    "url": "https://github.com/mholubowski/react-treeview.git"
   },
   "keywords": [
     "facebook",
@@ -28,12 +28,12 @@
     "ui",
     "react-component"
   ],
-  "author": "chenglou <chenglou92@gmail.com>",
+  "author": "mholubowski <mike.holubowski@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chenglou/react-treeview/issues"
+    "url": "https://github.com/mholubowski/react-treeview/issues"
   },
-  "homepage": "https://github.com/chenglou/react-treeview",
+  "homepage": "https://github.com/mholubowski/react-treeview",
   "peerDependencies": {
     "react": ">=0.12.0 || ^0.14.0-rc1"
   },
