@@ -44,6 +44,7 @@ const TreeView = React.createClass({
 
     return (
       <div className="tree-view">
+        <p>hi</p>
         <div className="tree-view_item">
           {arrow}
           {nodeLabel}
